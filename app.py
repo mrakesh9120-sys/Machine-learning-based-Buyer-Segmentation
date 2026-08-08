@@ -1,0 +1,11 @@
+import streamlit as st
+st.set_page_config(page_title='Parcl Buyer Segmentation')
+st.title('Parcl Buyer Segmentation Dashboard')
+st.write('Streamlit deployment successful.')
+st.metric('Buyer Segments', '4')
+st.subheader('Segments')
+st.write('C1 - Global Investors')
+st.write('C2 - First-Time Buyers')
+st.write('C3 - Corporate Buyers')
+st.write('C4 - Luxury Investors')
+st.success('App is working correctly.')
